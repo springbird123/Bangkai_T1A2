@@ -12,10 +12,10 @@
 body {
     background-color: #e7530b;
     color: white;
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 100vh;
   }
 
 /*Header Global-------------------------*/ 
@@ -28,7 +28,7 @@ body {
     background-color: #e7530b; 
     width: 100vw;
     z-index: 10;
-    padding: 1rem 3rem;
+    padding: 1vw 4vw;
     border-bottom: 1px solid white;
     margin-bottom: 1rem;
     }
@@ -73,8 +73,9 @@ footer {
     width: 100vw;
     left: 50%;
     transform: translate(-50%, 0);
+    background-color: #e7530b; 
     display: flex;
     justify-content: center;
-    padding: 0.1rem 2.5em;
+    padding: 0.5rem 2.5rem;
   }
   /*footer end-------------------------*/

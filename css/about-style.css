@@ -1,0 +1,58 @@
+main {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    color: #e7530b; 
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    display: inline-block;
+    padding: 4vw 6vmax;
+}
+#index-text {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: flex;
+    flex-direction: column;
+    padding: 9vw;
+}
+
+.spacebox{
+    display: flex;
+    width: 8%;
+
+}
+
+.text-box{
+    display: flex;
+    float: left;
+}
+
+#about-photo {
+display: flex;
+justify-content: center;
+width: 30vw;
+height: 30vw;
+min-width: 200px;
+min-height: 200px;
+max-width: 300px;
+max-height: 300px;
+overflow: hidden;
+border-radius: 50%;
+position: absolute;
+top: 50%;
+transform: translate(0, -50%);
+
+}
+
+#index-text h1 {
+font-size: 5rem;
+flex-wrap: wrap;
+}
+
+#index-text p {
+font-size: 2rem;
+}

@@ -1,0 +1,50 @@
+#introduction {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    width: 100vw;
+    height: 10rem;
+    margin-top: 5rem;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    align-items:center
+}
+
+h1{
+    font-weight: 700;
+}
+
+h2{
+    font-size: 1rem;
+}
+.blog-container{
+    display: flex;
+    background-color: white;
+    padding: 4vw 5vw;
+    color: #e7530b;
+    width: 100vw;
+
+}
+
+section .text {
+    padding: 0 3rem;
+}
+
+.text h2{
+    position: relative;
+    top: 40%;
+    transform:translateY(-40%);
+    align-items: center;
+    font-size: 4rem;
+}
+
+.text p{
+    position: relative;
+    top: 40%;
+    transform:translateY(-40%);
+
+}
+img{
+    height: 300px;
+    width: 300px;
+}

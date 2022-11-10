@@ -17,7 +17,7 @@ h2{
 .light-container{
     display: flex;
     background-color: white;
-    padding: 5vw 7vw;
+    padding: 4vw 6vmax;
     color: #e7530b;
     width: 100vw;
     align-items: center;

@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAEEF6;
+  }
+
+.title-contianer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-top: 5rem;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    background-color: #e7530b;
+}
+
+  article {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    color: black;
+    text-align: justify;
+    padding: 2rem 0;
+  }
+  article .title-image {
+    margin: 1rem 0 1rem 0;
+    width: 35vw;
+    height: 35vw;
+    
+
+  }
+  .title-contianer .publish-date {
+    font-size: 1rem;
+  }

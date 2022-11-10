@@ -21,10 +21,9 @@
     overflow: hidden;
     border-radius: 50%;
     position: absolute;
-    top: 45%;
+    top: 50%;
     transform: translate(0, -50%);
     left: 65%;
-    margin: 50px;
   }
 
   #index-text h1 {

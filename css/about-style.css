@@ -28,6 +28,7 @@ article{
     font-size: 1.3rem;
     font-weight: 500;
     padding: 1.2rem 2rem;
+    text-align: justify;
 }
 
 img {
@@ -41,7 +42,8 @@ h2 {
 h2 .CV_button {
     background-color: #e7530b;
     color: white;
-    padding: rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
 }
 
 #index-text h1 {

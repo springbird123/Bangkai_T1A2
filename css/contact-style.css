@@ -1,20 +1,37 @@
 .container {
     width: 100%;
+    height: 100vh;
     display: flex;
-    padding: 4vw 6vw;
-    margin-top: 5.1vw;
+    padding: 8vw 6vw 4vw 6vw;
     align-items: center;
+    justify-content: space-between;
 }
 
-#contact-header{
-    position: static;
+.buttonbox {
+    padding: 0.2rem 1rem;
+    background-color: #e7530b;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+    border: 1px solid white;
 }
 
+.logo{
+    width: 3rem;
+    height: 3rem;
+}
 contactform{
     width: 30vw;
     margin-left: 3rem;
 }
 
+h1 {
+    font-size: calc(4rem + 1.5vw);
+}
+
+h2 {
+    font-size: 2rem;
+}
 legend{
     font-size: 1.5rem;
 }
@@ -32,3 +49,8 @@ input, textarea {
 textarea{
     height: 6rem;
 }
+
+.buttonbox:hover {
+    opacity: 0.5;
+    scale: 1.1;
+  }

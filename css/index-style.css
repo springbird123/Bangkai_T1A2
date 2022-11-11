@@ -4,7 +4,7 @@
   display: flex;
   padding: 8vw 6vw 4vw 6vw;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 #index-text {
   display: flex;
@@ -55,12 +55,10 @@
   #index-photo a{
     width: 60vw;
     height: 60vw;
+    margin-top: 4.5rem;
   }
   .container {
     flex-direction: column-reverse;
     align-items: center;
-    justify-content: space-around;
-
-    margin: 0 0 0 0;
 }
 }

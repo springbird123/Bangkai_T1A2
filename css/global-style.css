@@ -24,7 +24,6 @@ body {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    z-index: 1;
     background-color: #e7530b; 
     width: 100vw;
     height: 4.5rem;
@@ -39,10 +38,6 @@ body {
       font-weight: 600;
     }
     
-    header div :hover {
-      font-weight: 900;
-      margin: 1px solid white;
-    }
     nav a{
       display: flex;
       justify-content: space-between;
@@ -50,11 +45,15 @@ body {
       font-size: 1.5rem;
       color: #ffffff;
     }
+
+    nav ul{
+      text-align: right;
+    }
+
     nav li{
       display: inline-block;
       margin: 0rem 1rem;
     }
-  
   
     header a:hover {
       text-decoration: underline;
@@ -79,3 +78,17 @@ footer {
     padding: 0.5rem 2.5rem;
   }
   /*footer end-------------------------*/
+
+
+  @media screen and (max-width: 768px) {
+
+    #site-title {
+      font-size: 1.5rem;
+    }
+
+  header a:hover {
+    text-decoration: underline;
+    font-weight: 900;
+    margin: 0;
+  }
+  }

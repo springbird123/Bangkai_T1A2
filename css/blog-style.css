@@ -3,15 +3,10 @@
     position: relative;
     width: 100vw;
     height: 10vh;
-    margin-top: 5vw;
+    margin-top: 4.5rem;
     padding-left: 4vw;
     font-size: 2rem;
     align-items:center
-}
-
-
-h2{
-    font-size: 1rem;
 }
 
 .light-container{
@@ -21,11 +16,11 @@ h2{
     color: #e7530b;
     width: 100vw;
     align-items: center;
-
-    
-
 }
 
+.light-container h2{
+    color: #e7530b;
+}
 .dark-container{
     display: flex;
     background-color: #EAEEF6;
@@ -33,11 +28,11 @@ h2{
     color: black;
     width: 100vw;
     align-items: center;
-
-    
-
 }
 
+.dark-container h2 {
+    color: black;
+}
 .light-container .text{
     margin-left: 9vw;
 }
@@ -45,7 +40,7 @@ h2{
 .dark-container .text{
     margin-right: 9vw;
 }
-.text h2{
+.text h2 {
     position: relative;
     align-items: center;
     font-size: 4vw;
@@ -69,3 +64,37 @@ img:hover {
     width: 30vw;
     padding: 0;
   }
+
+h2:hover {
+    opacity: 0.5;
+    scale: 1.1;
+}
+
+@media screen and (max-width: 900px){}
+    Main {
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 0 0 0 0;
+    }
+    Main #text-container {
+      margin: 0 0 0 0;
+      height: auto;
+    }
+    Main #text-container h1 {
+      text-align: center;
+      margin: 2rem 0rem 0rem 0rem;
+    }
+    Main #text-container h2 {
+      text-align: center;
+    }
+    Main #photo-container {
+      display: flex;
+      border: 5px solid rgb(80, 80, 80);
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 50%;
+      position: relative;
+      top: 50px;
+    }

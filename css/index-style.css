@@ -18,12 +18,8 @@
 #index-photo a {
   display: flex;
   justify-content: center;
-  width: 35vw;
-  height: 35vw;
-  min-width: 8rem;
-  min-height: 8rem;
-  max-width: 25rem;
-  max-height: 25rem;
+  width: 32vw;
+  height: 32vw;
   border-radius: 50%;
   overflow: hidden;
   scale: 1.1;
@@ -44,4 +40,27 @@
 
 #index-text p {
   font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  #index-text h1 {
+  font-size: calc((4 - 1) * calc(.012 * min(100vh, 900px)) + 1rem);
+  }
+
+  #index-text p {
+  font-size: calc((2.2 - 1) * calc(.012 * min(100vh, 900px)) + 1rem);
+  }
+
+
+  #index-photo a{
+    width: 60vw;
+    height: 60vw;
+  }
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+
+    margin: 0 0 0 0;
+}
 }

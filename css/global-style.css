@@ -52,7 +52,7 @@ body {
 
     nav li{
       display: inline-block;
-      margin: 0rem 1rem;
+      margin-left: 2rem;
     }
   
     header a:hover {
@@ -80,7 +80,7 @@ footer {
   /*footer end-------------------------*/
 
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
 
     #site-title {
       font-size: 1.5rem;
@@ -91,4 +91,18 @@ footer {
     font-weight: 900;
     margin: 0;
   }
+  nav li{
+    margin-left: 0.5rem;
+  }
+  }
+
+  @media screen and (max-width: 425px){
+    nav a{
+      font-size: 1rem;
+    }
+
+    nav li{
+      margin-left: 10px;
+    }
+  
   }

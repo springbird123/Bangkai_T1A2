@@ -15,7 +15,7 @@ main {
     font-size: 2rem;
     background-color: #e7530b;
 }
-
+/*Article Styling*/
   article {
     display: flex;
     flex-direction: column;
@@ -23,14 +23,37 @@ main {
     color: black;
     text-align: justify;
     padding: 2rem 0;
+    align-items: center;
   }
   article .title-image {
     margin: 1rem 0 1rem 0;
     width: 35vw;
     height: 35vw;
-    
-
   }
   .title-contianer .publish-date {
     font-size: 1rem;
   }
+/*Tablet Screen */
+  @media screen and (max-width: 900px){
+    article {
+  padding: 1rem 1rem 3rem 1rem;
+  }
+}
+/*Mobile Screen */
+  @media screen and (max-width: 500px){
+    article .title-image {
+      margin: 1rem 0 1rem 0;
+      width: 80vw;
+      height: 80vw;
+  }
+  
+    .title {
+        font-size: 2rem;
+    }
+  
+    .text h3 {
+      font-size: 0.8rem;
+  }
+  
+  
+    }

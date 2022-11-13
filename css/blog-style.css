@@ -1,3 +1,4 @@
+/*Blog Title Styling*/
 #introduction {
     display: flex;
     position: relative;
@@ -8,7 +9,7 @@
     font-size: 2rem;
     align-items:center
 }
-
+/*white-background posts Styling*/
 .light-container{
     display: flex;
     background-color: white;
@@ -17,10 +18,14 @@
     width: 100vw;
     align-items: center;
 }
-
 .light-container h2{
     color: #e7530b;
 }
+.light-container .text{
+  margin-left: 9vw;
+}
+
+/*Grey-background posts Styling*/
 .dark-container{
     display: flex;
     background-color: #EAEEF6;
@@ -29,17 +34,14 @@
     width: 100vw;
     align-items: center;
 }
-
 .dark-container h2 {
     color: black;
 }
-.light-container .text{
-    margin-left: 9vw;
-}
-
 .dark-container .text{
     margin-right: 9vw;
 }
+
+/*Text Styling*/
 .text h2 {
     position: relative;
     align-items: center;
@@ -51,6 +53,12 @@
 
 }
 
+h2:hover {
+  opacity: 0.5;
+  scale: 1.1;
+}
+
+/*Images Styling*/
 img{
     height: 29vw;
     width: 29vw;
@@ -65,12 +73,9 @@ img:hover {
     padding: 0;
   }
 
-h2:hover {
-    opacity: 0.5;
-    scale: 1.1;
-}
-
-@media screen and (max-width: 1024px){
+/*Media Screen Styling*/
+/*Laptop Screen */
+@media screen and (max-width: 1280px){
   #introduction{
     font-size: 1.8rem;
   }
@@ -82,8 +87,8 @@ h2:hover {
 }
 }
 
-
-@media screen and (max-width: 768px){
+/*Tablet Screen */
+@media screen and (max-width: 900px){
   #introduction{
     font-size: 1.8rem;
   }
@@ -95,7 +100,7 @@ h2:hover {
 }
 
 }
-
+/*Mobile Screen */
 @media screen and (max-width: 500px){
   .light-container {
     flex-direction: column;

@@ -1,3 +1,4 @@
+/*Body Container*/
 .container {
     width: 100%;
     height: 100vh;
@@ -6,30 +7,7 @@
     align-items: center;
     justify-content: space-between;
 }
-
-.buttonbox {
-    padding: 0.2rem 1rem;
-    background-color: #e7530b;
-    color: white;
-    font-weight: 500;
-    font-size: 1.5rem;
-    border: 1px solid white;
-}
-
-.logo{
-    width: 3rem;
-    height: 3rem;
-    margin-right: 0.5rem;
-}
-
-.email {
-    font-size: 1.2rem;
-}
-contactform{
-    width: 30vw;
-    margin-left: 3rem;
-}
-
+/*Font Styling*/
 h1 {
     font-size: calc(4rem + 1.5vw);
 }
@@ -37,8 +15,20 @@ h1 {
 h2 {
     font-size: 2rem;
 }
-legend{
-    font-size: 1.5rem;
+/*Link Logo Styling*/
+.logo{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.5rem;
+}
+.email {
+    font-size: 1.2rem;
+}
+
+/*Contactform Styling*/
+contactform{
+    width: 30vw;
+    margin-left: 3rem;
 }
 
 input, textarea {
@@ -50,12 +40,64 @@ input, textarea {
     background-color: #FAFAFA;
     border: 0;
 }
-
 textarea{
     height: 6rem;
 }
 
+legend{
+    font-size: 1.5rem;
+}
+
+.buttonbox {
+    padding: 0.2rem 1rem;
+    background-color: #e7530b;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+    border: 1px solid white;
+}
 .buttonbox:hover {
     opacity: 0.5;
     scale: 1.1;
   }
+
+/*Media Screen Styling*/
+/*Laptop and Tablet Screen */
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+/*Media Screen Styling*/
+/*Mobile Screen */
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+    font-size: 1.2rem;
+    }
+ 
+    .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content:flex-start
+
+    }
+
+    .infobox {
+        margin-top: 5rem;
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    .contact-links {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    contactform{
+        width: 80vw;
+        margin: 3rem 0rem;
+    }
+}

@@ -7,7 +7,6 @@
 
 ---
 
-
 ## Purpose
 This website is a portfolio to demostrate my web development skils, providing information about my experince, skills and interests. It also for who is intrested including the potential employer to be able to get in contact with me.  
 
@@ -44,7 +43,7 @@ The is achiveved with the following features:
 ### Blog page
 ![Wirframe of blog page](/docs/wireframe-blog.png)
 ### Blog Post page
-![Wireframe of blog post page](/docs/wireframe-blog-post.png)
+![Wireframe of blog post page](/docs/wireframe-post.png)
 ### contact page
 ![Wireframe of contact page](/docs/wireframe-contact.png)
 <br>
@@ -58,11 +57,7 @@ The is achiveved with the following features:
 ### Blog page
 ![Screenshot of blog page](/docs/screenshot-blog.png)
 ### Blog Post page
-![Screenshot of blog post page](/docs/screenshot-blog-post-1.png)
-![Screenshot of blog post page](/docs/screenshot-blog-post-2.png)
-![Screenshot of blog post page](/docs/screenshot-blog-post-3.png)
-![Screenshot of blog post page](/docs/screenshot-blog-post-4.png)
-![Screenshot of blog post page](/docs/screenshot-blog-post-5.png)
+![Screenshot of blog post page](/docs/screenshot-post.png)
 ### Contact page
 ![Screenshot of contact page](/docs/screenshot-contact.png)
 

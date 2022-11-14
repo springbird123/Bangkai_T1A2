@@ -18,10 +18,10 @@ The design of the website is intended to be minimalist and clean, providing a qu
 The is achiveved with the following features:
 
 - Navigation bar provides access to each of main pages with hover effects.
-- Index page: Contains a portrait, name and short description.
+- Index page: Contains a profile photo, name and short description. The profile photo links to the about page with hover effects.
 - About page: Provides the informations about me. Resume can be downloaded here.
-- Blog page:  Feautres blog posts with image, title, publish date, and description.
-- Contact page: provides social media links, in additional to contact information and a contacform.
+- Blog page:  Feautres blog post cards with image, title, publish date, and description. The post image and  post titile link to the post page with hover effects.
+- Contact page: provides social media links, in additional to contact information and a contactform.
 - Responsive desgin for all pages adjusting the contents to suit different screens including desktop/laptop, tablet and phone. 
 - Logo within the header and browser tab favicon for personal branding. the header logo also links to the home page.
 

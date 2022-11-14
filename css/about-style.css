@@ -62,6 +62,12 @@ flex-wrap: wrap;
 font-size: 2rem;
 }
 
+h2 .CV_button:hover {
+    opacity: 0.5;
+    scale: 1.1;
+  }
+/*Media Screen Styling*/
+/*Tablet Screen */
 @media screen and (max-width: 900px){
     .container {
         flex-direction: column;
